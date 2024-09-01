@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.5));
+    height: 200vh;
+}
+.nav-button {
+    border: 1.5px solid transparent;
+    background-color: transparent ;
+    color : white;
+    transform: scale(1.7);
+    padding: 3px;
+    cursor: pointer;
+    margin:50px 60px;
+    transition: all 800ms;
+    font-size: 17px;
+}
+.nav-button:hover{
+    border: 1.5px solid white;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.logo {
+    height:120px;
+    margin-top: 15px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    color : white;
+}
+.roadmap-heading {
+    margin-top : 60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+.cards {
+    margin : 80px 120px 0px 120px;
+    height : 650px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap : 100px 170px;
+}
+.card {
+    border : 2px solid white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px 0 rgba(0,0,0,0.5);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap:wrap;
+    opacity: 0.9;
+    color : white;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 4px 4px 3px black;
+    font-weight: 600;
+    text-align: center;
+}
+.card1 {
+    background-image: url("sci\ &\ tech.webp");
+}
+.card2 {
+    background-image: url("arts\ &\ human.jpg");
+}
+.card3 {
+    background-image: url("law\ &\ just.jpeg");
+}
+.card4 {
+    background-image: url("comm\ &\ buss.jpg");
+}
+.card5 {
+    background-image: url("social\ sci.webp");
+}
+.card6 {
+    background-image: url("vocational\ &\ technical.webp");
+}
+.card:hover {
+    transform:scale(1.1,1.1);
+    transition: all 100ms linear;
+}
+.card a {
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+
+
+
+
